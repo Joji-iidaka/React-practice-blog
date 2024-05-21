@@ -1,0 +1,23 @@
+nav{
+    display: flex;
+    /* ↓これ便利！だから↑でdisplay:flexにするよ。 */
+    justify-content: center; /*jccと入力すると候補が出るよ */
+    align-items: center; /*aicと入力すると候補が出るよ */
+    height: 50px;
+    background-color: #cb8c54;
+    gap: 45px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    color: cadetblue;
+}
+
+nav a svg{
+    margin-right: 5px;
+}
